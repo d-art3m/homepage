@@ -33,7 +33,6 @@ body {
 .fv {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 .resume {
@@ -91,7 +90,7 @@ body {
 .contact-info__block {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .contact-info__block--center {
@@ -198,7 +197,7 @@ body {
   text-decoration-color: var(--text-decoration-color);
   text-decoration-line: underline;
   text-align: left;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .experiences__company-project {
@@ -207,13 +206,6 @@ body {
 }
 
 .experiences__company-project-role {
-  color: var(--durability-text-color);
-  text-align: left;
-  margin-bottom: 10px;
-  font-size: 15px;
-}
-
-.experiences__company-project-name {
   color: var(--primary-text-color);
   text-align: left;
   margin-bottom: 10px;
@@ -248,11 +240,11 @@ body {
 .additional-info__education-university-speciality {
   color: var(--primary-text-color);
   text-align: left;
-  margin-bottom: 10px;
 }
 
 .additional-info__education-university-name {
   color: var(--secondary-text-color);
+  margin-bottom: 15px;
 }
 
 .additional-info__languages {
